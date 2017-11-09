@@ -1,21 +1,21 @@
 # PolygonTriangulator
-This repo contains the code to solve the "Triangulating Polygons" challenge
+This repo contains the code to solve the "Triangulating Polygons" challenge  
 
-###My Solution:
+###My Solution:  
 When constructing my solution, I first tried to approach the problem from the theoretical angle about triangulation. Theory’s such as Fisk’s Theorem proved positive in helping me gain some insight into Triangulation problems and their rules.
 
 Unable to find a pattern or a “hard” math solution I decide to test the multiple permutations and combinations that would exist for this problem. First, I created 3 classes to build the polygon I the challenge:
 
-**Point:**
+**Point:**  
 ..*Has variable color
 ..*3 colors red (r), yellow (y), blue (b)
 
-**Triangle:**
+**Triangle:**  
 ..*Composed of 3 points of varying colors
 ..*Triangles have a status of complete (a combination of r,b,y)
 ..*A dictionary of points and their colors can be returned as well. 
 
-Polygon:
+Polygon:  
 Constructed of a list of Triangles, a list of points that have mutable colours, and a dictionary containing the mutable points and triangles in which they are a part of
 The polygon is capable of checking if exactly 2 triangles exist within the solution
 Whenever a point is changed you can check the triangles in which that point is a part of
