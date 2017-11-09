@@ -7,13 +7,13 @@ When constructing my solution, I first tried to approach the problem from the th
 Unable to find a pattern or a “hard” math solution I decide to test the multiple permutations and combinations that would exist for this problem. First, I created 3 classes to build the polygon I the challenge:
 
 **Point:**  
-..* Has variable color  
-..* 3 colors red (r), yellow (y), blue (b)  
+* Has variable color  
+* 3 colors red (r), yellow (y), blue (b)  
 
 **Triangle:**  
-..* Composed of 3 points of varying colors
-..* Triangles have a status of complete (a combination of r,b,y)
-..* A dictionary of points and their colors can be returned as well. 
+* Composed of 3 points of varying colors
+* Triangles have a status of complete (a combination of r,b,y)
+* A dictionary of points and their colors can be returned as well. 
 
 Polygon:  
 Constructed of a list of Triangles, a list of points that have mutable colours, and a dictionary containing the mutable points and triangles in which they are a part of
@@ -42,9 +42,9 @@ Increase the constraints to further crop recursion
 Runtime on some Windows machines takes a lot longer compared to when I test it on other machines (Mac OSX)
 I would pursue a mathematical angle instead of searching of the semi-brute force method that I used
 I would maybe consider using a language other than python for performance reasons  
-###Installation:
+#### Installation:  
 git clone https://github.com/Kieran92/PolygonTriangulator.git  
-###To Run:
+#### To Run:  
  python Sol.py  
-###To Run Tests:
+#### To Run Tests:  
 python solTests.py  
