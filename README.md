@@ -24,27 +24,27 @@ Finally, I have a function that I use as a “solver” for the problem. It star
 My solution tries this until there are no more colors in which to set the points and there is no solution and returns false. My program as it runs right now currently determines that there is no solution to the polygon as described in the challenge. 
 
 
-### Resources:
-http://mathworld.wolfram.com/MinimumVertexColoring.html
-https://en.wikipedia.org/wiki/Graph_coloring
-https://people.csail.mit.edu/indyk/6.838-old/handouts/lec4.pdf
-https://www.cs.ucsb.edu/~suri/cs235/Triangulation.pdf
-http://www.cs.uu.nl/docs/vakken/ga/slides3.pdf
+### Resources:  
+http://mathworld.wolfram.com/MinimumVertexColoring.html  
+https://en.wikipedia.org/wiki/Graph_coloring  
+https://people.csail.mit.edu/indyk/6.838-old/handouts/lec4.pdf  
+https://www.cs.ucsb.edu/~suri/cs235/Triangulation.pdf  
+http://www.cs.uu.nl/docs/vakken/ga/slides3.pdf  
 
 ### Time Breakdown:  
 Research: 1-2 hrs  
 Design & Implementation: ~ 3 - 4 hrs  
 Testing & Refactoring: 2 hrs  
 Documentation: 1 hr  
-Total: ~ 9 hrs  
-Improvements:  
+Total: ~ 9 hrs    
+### Improvements:  
 Increase the constraints to further crop recursion
 Runtime on some Windows machines takes a lot longer compared to when I test it on other machines (Mac OSX)
 I would pursue a mathematical angle instead of searching of the semi-brute force method that I used
-I would maybe consider using a language other than python for performance reasons
+I would maybe consider using a language other than python for performance reasons  
 ###Installation:
-git clone https://github.com/Kieran92/PolygonTriangulator.git
+git clone https://github.com/Kieran92/PolygonTriangulator.git  
 ###To Run:
- python Sol.py
+ python Sol.py  
 ###To Run Tests:
-python solTests.py
+python solTests.py  
