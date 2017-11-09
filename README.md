@@ -1,14 +1,14 @@
 # PolygonTriangulator
 This repo contains the code to solve the "Triangulating Polygons" challenge  
 
-### sMy Solution:  
+### My Solution:  
 When constructing my solution, I first tried to approach the problem from the theoretical angle about triangulation. Theory’s such as Fisk’s Theorem proved positive in helping me gain some insight into Triangulation problems and their rules.
 
 Unable to find a pattern or a “hard” math solution I decide to test the multiple permutations and combinations that would exist for this problem. First, I created 3 classes to build the polygon I the challenge:
 
 **Point:**  
-..* Has variable color
-..* 3 colors red (r), yellow (y), blue (b)
+..* Has variable color  
+..* 3 colors red (r), yellow (y), blue (b)  
 
 **Triangle:**  
 ..* Composed of 3 points of varying colors
