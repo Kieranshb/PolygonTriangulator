@@ -39,12 +39,12 @@ Documentation: 1 hr
 Total: ~ 9 hrs    
 ### Improvements:  
 * Increase the constraints to further crop recursion
-* Runtime on some Windows machines takes a lot longer compared to when I test it on other machines (Mac OSX)
+* Runtime on some Windows machines can take a bit longer than I would like.  
 * I would pursue a mathematical angle instead of searching of the semi-brute force method that I used
 * I would maybe consider using a language other than python for performance reasons  
 #### Installation:  
-git clone https://github.com/Kieran92/PolygonTriangulator.git  
+'git clone https://github.com/Kieran92/PolygonTriangulator.git '  
 #### To Run:  
- python Sol.py  
+ 'python Sol.py'  
 #### To Run Tests:  
 python solTests.py  
