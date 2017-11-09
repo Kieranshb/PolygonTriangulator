@@ -43,8 +43,8 @@ Total: ~ 9 hrs
 * I would pursue a mathematical angle instead of searching of the semi-brute force method that I used
 * I would maybe consider using a language other than python for performance reasons  
 #### Installation:  
-'git clone https://github.com/Kieran92/PolygonTriangulator.git '  
+'''git clone https://github.com/Kieran92/PolygonTriangulator.git '''  
 #### To Run:  
- 'python Sol.py'  
+'''python Sol.py '''  
 #### To Run Tests:  
-python solTests.py  
+'''python solTests.py ''' 
