@@ -15,7 +15,7 @@ Unable to find a pattern or a “hard” math solution I decide to test the mult
 * Triangles have a status of complete (a combination of r,b,y)
 * A dictionary of points and their colors can be returned as well. 
 
-Polygon:  
+**Polygon:**    
 Constructed of a list of Triangles, a list of points that have mutable colours, and a dictionary containing the mutable points and triangles in which they are a part of
 The polygon is capable of checking if exactly 2 triangles exist within the solution
 Whenever a point is changed you can check the triangles in which that point is a part of
@@ -38,10 +38,10 @@ Testing & Refactoring: 2 hrs
 Documentation: 1 hr  
 Total: ~ 9 hrs    
 ### Improvements:  
-Increase the constraints to further crop recursion
-Runtime on some Windows machines takes a lot longer compared to when I test it on other machines (Mac OSX)
-I would pursue a mathematical angle instead of searching of the semi-brute force method that I used
-I would maybe consider using a language other than python for performance reasons  
+* Increase the constraints to further crop recursion
+* Runtime on some Windows machines takes a lot longer compared to when I test it on other machines (Mac OSX)
+* I would pursue a mathematical angle instead of searching of the semi-brute force method that I used
+* I would maybe consider using a language other than python for performance reasons  
 #### Installation:  
 git clone https://github.com/Kieran92/PolygonTriangulator.git  
 #### To Run:  
