@@ -30,7 +30,9 @@ https://en.wikipedia.org/wiki/Graph_coloring
 https://people.csail.mit.edu/indyk/6.838-old/handouts/lec4.pdf  
 https://www.cs.ucsb.edu/~suri/cs235/Triangulation.pdf  
 http://www.cs.uu.nl/docs/vakken/ga/slides3.pdf  
-
+http://pythontesting.net/framework/unittest/unittest-introduction/  
+https://infohost.nmt.edu/tcc/help/pubs/python/web/continue-statement.html  
+https://www.packtpub.com/mapt/book/application_development/9781786467355/3/ch03lvl1sec16/recursion-and-backtracking  
 ### Time Breakdown:  
 Research: 1-2 hrs  
 Design & Implementation: ~ 3 - 4 hrs  
